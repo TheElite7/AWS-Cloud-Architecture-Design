@@ -21,12 +21,13 @@ Efficient data backup and cost management are critical for any cloud-based infra
 
 ### Solution Architecture
 
-![AWS Cost-Optimized Backup Architecture](Architecture/01-Cost Optmization.drawio)
+![AWS Cost-Optimized Backup Architecture](Architecture/01_Cost_Optmization.png)
 
 **Architecture Flow:**
   
 > EC2 / RDS / EFS → AWS Backup → Backup Storage → Lifecycle Management → Long-Term Retention  
->  
+
+
 > AWS Cost Explorer + AWS Budgets are used to monitor and control backup-related costs.
 
 ---
